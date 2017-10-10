@@ -1,0 +1,24 @@
+jMeter
+Grupa w¹tków
+Cookies - wszystkie informacje WEJŒÆIÓWKA na nastêpnych zajêciach
+Add request element HTTP Cookie Manager Cookie policy standard
+Add request element HTTP Request Manager
+Add request element HTTP Request
+http + path + port
+Add Listener View Result in Table -> PLAY
+Mierzenie czasu REQUEST'a i RESPONSE'a
+jMeter mierzy czas REQUEST'a i czas ca³kowity REQ%RESP+ewentualny czas oczekiwania
+
+
+math.uni.lodz.pl/~arekp/testowanie
+3 linki
+Funkcja Recording
+W brudnopisie nowy element -> Recording
+Pomiêdzy jMeter'em a serwerem mamy przegl¹darkê proxy.
+jMeter poprzez proxy ³¹czy siê z serwerem z w³¹czon¹ funkcj¹ recording
+w view table lista wszystkich rzeczy które siê za³adowa³y gdy siê ³adowa³a strona
+Funkcja exclude, excludowac png i jpg
+
+https://www.digitalocean.com/community/tutorials/how-to-use-apache-jmeter-to-perform-load-testing-on-a-web-server
+http://jmeter.apache.org/usermanual/jmeter_proxy_step_by_step.html
+https://www.digitalocean.com/community/tutorials/how-to-use-jmeter-to-record-test-scenarios
