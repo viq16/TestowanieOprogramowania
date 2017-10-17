@@ -1,0 +1,9 @@
+1. Napisz testplan z oczekiwanym wynikiem sukcesu lub pora¿ki (smoketest, logowanie, kilka akcji)
+Dowolna strona do przetestowania. Dane do logowania brane z CSV. Pomocna jedynie dokumentacja jMeter'a.
+Konf CSV
+HTTP Cache Manager
+HTTP Cookie Manager
+HTTP Header Manager
+Recording Contoller
+Recording Request
+Regular Expression Extractor
