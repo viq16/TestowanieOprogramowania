@@ -1,6 +1,7 @@
 package pageObject;
 
 
+import java.util.ArrayList;
 import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -14,6 +15,7 @@ public class BasicSelectDropdownObject extends MainObjects{
 	private WebElement getOneSelected;
 	private WebElement getAllSelected;
 	private WebElement selectedValidation;
+	
 	
 	private final String url="http://www.seleniumeasy.com/test/basic-select-dropdown-demo.html";
     protected RemoteWebDriver wb;
@@ -37,7 +39,7 @@ public class BasicSelectDropdownObject extends MainObjects{
     	Select States = new Select(multiSelect);
     	States.selectByVisibleText("Ohio");
     	States.selectByVisibleText("Florida");
-    	//List <WebElement> elementCount = States.getOptions();
+
     	return this;
     }
     public BasicSelectDropdownObject getOneSelectedClick() {

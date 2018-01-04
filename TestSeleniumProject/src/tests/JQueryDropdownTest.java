@@ -44,9 +44,9 @@ public class JQueryDropdownTest {
 		rbp = new JQueryDropdownObjects(wb);
 		rbp.openViaUrl();
 		rbp.initElements(wb);
-		rbp.selectOutTerritoriesClick();
-		Thread.sleep(500);
-		//rbp.selectOutTerritoriesSelect();
+		rbp.selectOutTerritoriesClick(wb);
+		Thread.sleep(2000);
+		rbp.selectOutTerritoriesSelect();
 	}
 	@Test
 	public void selectFileTest() throws Exception{

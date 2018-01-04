@@ -42,9 +42,9 @@ public class JQueryDropdownObjects extends MainObjects{
     	selectState2.click();
     	return this;
     }
-    public JQueryDropdownObjects selectOutTerritoriesClick() {
+    public JQueryDropdownObjects selectOutTerritoriesClick(RemoteWebDriver wb) {
     	selectOutTerritories1.click();
-    	selectOutTerritories2=wb.findElement(By.xpath("//*[@id=\"select2-4u7b-result-etww-PR\"]"));
+    	selectOutTerritories2=wb.findElement(By.xpath("//*[@id=\"select2-nnab-result-w6tj-PR\"]"));
     	return this;
     }
     public JQueryDropdownObjects selectOutTerritoriesSelect() {
@@ -61,7 +61,7 @@ public class JQueryDropdownObjects extends MainObjects{
     	
     	//selectState1=wb.findElement(By.xpath("/html/body/div[2]/div/div[2]/div[2]/div/div[2]/span/span[1]/span"));
     	
-    	//selectOutTerritories1=wb.findElement(By.xpath("/html/body/div[2]/div/div[2]/div[3]/div/div[2]/span"));
+    	selectOutTerritories1=wb.findElement(By.xpath("/html/body/div[2]/div/div[2]/div[3]/div/div[2]/span/span[1]/span/span[2]"));
     	
     	selectFile=wb.findElement(By.xpath("//*[@id=\"files\"]"));
     	
